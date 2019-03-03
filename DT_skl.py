@@ -21,7 +21,7 @@ def importdata():
 'databases/balance-scale/balance-scale.data', 
     sep= ',', header = None) 
       
-    # Printing the dataswet shape 
+    # Printing the dataset shape 
     print ("Dataset Lenght: ", len(balance_data)) 
     print ("Dataset Shape: ", balance_data.shape) 
       
